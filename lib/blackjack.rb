@@ -40,7 +40,7 @@ end
 def hit?(number)
   prompt_user
   input = get_user_input
-  binding.pry
+  
   
   if input == 's'
     card_total 
